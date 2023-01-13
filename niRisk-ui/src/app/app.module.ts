@@ -13,6 +13,7 @@ import { LastFewTransactionsComponent } from './Components/dashboard/last-few-tr
 import { SalesByCategoryComponent } from './Components/dashboard/sales-by-category/sales-by-category.component';
 import { SalesByMonthComponent } from './Components/dashboard/sales-by-month/sales-by-month.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ChartModule } from 'angular-highcharts';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
